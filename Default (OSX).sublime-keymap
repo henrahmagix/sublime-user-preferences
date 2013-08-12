@@ -1,0 +1,12 @@
+[
+    {
+        "keys": ["command+shift+r"],
+        "command": "browser_refresh",
+        "args": {
+            "auto_save": false,
+            "delay": 0.5,
+            "activate_browser": false,
+            "browser_name" : "Google Chrome"
+        }
+    }
+]
