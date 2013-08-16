@@ -3,6 +3,8 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_white_space": "all",
+	"indent_guide_options": ["draw_normal", "draw_active"],
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
