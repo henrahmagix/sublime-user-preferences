@@ -1,15 +1,26 @@
 {
-    "sublimelinter": "save-only",
     "javascript_linter": "gjslint",
     // A list of gjslint error numbers to ignore. The list of error codes is here:
     // http://closure-linter.googlecode.com/svn/trunk/closure_linter/errors.py
     "gjslint_ignore":
     [
-        // line too long
-        110,
-        // Extra space. Prefer to only ignore this after "function".
-        1,
         // Single-quoted string prefered over double-quoted string.
-        131
-    ]
+        131,
+        // Line too long.
+        110,
+        // Missing space.
+        2,
+        // Extra space. Prefer to only ignore this after "function".
+        1
+    ],
+    "sublimelinter": "save-only",
+    "sublimelinter_disable":
+    [
+        "jslint",
+        "jshint"
+    ],
+    "csslint_options":
+    {
+        "box-model": false
+    }
 }
