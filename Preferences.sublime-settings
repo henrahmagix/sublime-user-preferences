@@ -1,34 +1,36 @@
 {
-    "auto_complete_commit_on_tab": true,
-    "bold_folder_labels": true,
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-    "dictionary": "Packages/Language - English/en_GB.dic",
-    "draw_white_space": "all",
-    "ensure_newline_at_eof_on_save": true,
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".hg",
-        "CVS",
-        ".sass-cache"
-    ],
-    "font_face": "Inconsolata",
-    "font_size": 14.0,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
-    "linecomments_super_enter": true,
-    "renderer opengl": false,
-    "rulers": [80],
-    "tab_size": 4,
-    "theme": "Soda Dark.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "vintage_ctrl_keys": false
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_face": "Inconsolata",
+	"font_size": 14.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"linecomments_super_enter": true,
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"vintage_ctrl_keys": false
 }
