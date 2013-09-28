@@ -25,10 +25,13 @@
 		"draw_active"
 	],
 	"linecomments_super_enter": true,
+	"open_files_in_new_window": true,
+	"show_full_path": true,
 	"rulers":
 	[
 		80
 	],
+	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
