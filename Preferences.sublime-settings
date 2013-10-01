@@ -2,6 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -15,6 +16,7 @@
 	],
 	"font_face": "Inconsolata",
 	"font_size": 14.0,
+	"highlight_modified_tabs": false,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -26,11 +28,11 @@
 	],
 	"linecomments_super_enter": true,
 	"open_files_in_new_window": true,
-	"show_full_path": true,
 	"rulers":
 	[
 		80
 	],
+	"show_full_path": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
