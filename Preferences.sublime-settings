@@ -38,5 +38,6 @@
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"vintage_ctrl_keys": false
+	"vintage_ctrl_keys": false,
+	"word_wrap": true
 }
