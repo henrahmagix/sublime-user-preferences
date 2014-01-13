@@ -1,8 +1,10 @@
 <snippet>
     <content><![CDATA[
-apply(this, arguments);
+${1:initialize}: function () {
+	${0:Class}.prototype.${1:initialize}.apply(this, arguments);
+}
 ]]></content>
     <tabTrigger>sup</tabTrigger>
     <scope>source.js</scope>
-    <description>apply super method</description>
+    <description>super method of class</description>
 </snippet>
