@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:events}: _.extend({}, $0.prototype.${1:events}, {
+
+})
+]]></content>
+    <tabTrigger>supex</tabTrigger>
+    <scope>source.js</scope>
+    <description>extend the object of the super class</description>
+</snippet>
