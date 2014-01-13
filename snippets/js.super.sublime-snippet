@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+apply(this, arguments);
+]]></content>
+    <tabTrigger>sup</tabTrigger>
+    <scope>source.js</scope>
+    <description>apply super method</description>
+</snippet>
