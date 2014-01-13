@@ -12,7 +12,8 @@
 		".git",
 		".hg",
 		"CVS",
-		".sass-cache"
+		".sass-cache",
+		"compiled-data"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 14.0,
