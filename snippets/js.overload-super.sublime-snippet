@@ -6,5 +6,5 @@ ${1:initialize}: function () {
 ]]></content>
     <tabTrigger>sup</tabTrigger>
     <scope>source.js</scope>
-    <description>super method of class</description>
+    <description>overload super method of class</description>
 </snippet>
