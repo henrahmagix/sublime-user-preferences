@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1:events}: _.extend({}, $0.prototype.${1:events}, {
+${1:events}: _.extend({}, ${0:Class}.prototype.${1:events}, {
 
-})
+}),
 ]]></content>
     <tabTrigger>supex</tabTrigger>
     <scope>source.js</scope>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:initialize}: function () {
 	${0:Class}.prototype.${1:initialize}.apply(this, arguments);
-}
+},
 ]]></content>
     <tabTrigger>sup</tabTrigger>
     <scope>source.js</scope>
