@@ -6,6 +6,8 @@ define([
 	${2:TemplateView}
 ) {
 
+	'use strict';
+
 	return ${2:TemplateView}.extend({
 		$0
 	});
