@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+border:
+	bottom: 
+]]></content>
+    <tabTrigger>bb</tabTrigger>
+    <scope>source.sass</scope>
+    <description>border-bottom shortcut</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+padding:
+	left: 
+]]></content>
+    <tabTrigger>pl</tabTrigger>
+    <scope>source.sass</scope>
+    <description>padding-left shortcut</description>
+</snippet>
