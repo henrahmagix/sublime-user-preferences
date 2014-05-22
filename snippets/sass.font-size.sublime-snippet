@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+font:
+    size: 
+]]></content>
+    <tabTrigger>fz</tabTrigger>
+    <scope>source.sass</scope>
+    <description>font-size shortcut</description>
+</snippet>

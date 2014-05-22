@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@include 
+]]></content>
+    <tabTrigger>in</tabTrigger>
+    <scope>source.sass</scope>
+    <description>@include shortcut</description>
+</snippet>

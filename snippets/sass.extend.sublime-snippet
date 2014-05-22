@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@extend %
+]]></content>
+    <tabTrigger>ex</tabTrigger>
+    <scope>source.sass</scope>
+    <description>@extend shortcut</description>
+</snippet>
