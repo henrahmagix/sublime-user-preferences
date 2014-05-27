@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+console.log(arguments);
+]]></content>
+    <tabTrigger>cla</tabTrigger>
+    <scope>source.js</scope>
+    <description>console.log(arguments);</description>
+</snippet>
