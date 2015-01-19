@@ -13,7 +13,9 @@
 		".hg",
 		"CVS",
 		".sass-cache",
-		"compiled-data"
+		".links",
+		"compiled-data",
+		".venv"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 12.0,
