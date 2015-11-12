@@ -6,7 +6,7 @@ beforeEach(function () {
 
 });
 ]]></content>
-    <tabTrigger>bef</tabTrigger>
+    <tabTrigger>beforeEach</tabTrigger>
     <scope>source.js</scope>
     <description>make a test beforeEach</description>
 </snippet>

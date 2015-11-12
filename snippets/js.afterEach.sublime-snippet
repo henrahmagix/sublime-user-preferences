@@ -6,7 +6,7 @@ afterEach(function () {
 
 });
 ]]></content>
-    <tabTrigger>af</tabTrigger>
+    <tabTrigger>afterEach</tabTrigger>
     <scope>source.js</scope>
     <description>make a test afterEach</description>
 </snippet>

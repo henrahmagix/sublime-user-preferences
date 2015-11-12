@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+this.${1:MY_CONSTANT}_MOCK = ${2:'my constant value'};
+
+var testRunner = this;
+module(function (\$provide) {
+	\$provide.constant('$1', testRunner.$1_MOCK);$0
+});
+]]></content>
+    <tabTrigger>moduleconstant</tabTrigger>
+    <scope>source.js</scope>
+    <description>module() constant: mock an angular constant</description>
+</snippet>

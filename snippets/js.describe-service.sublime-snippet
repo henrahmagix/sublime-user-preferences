@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+describe('${1:MyServiceOrFactory} service', function () {
+
+	beforeEach(function () {
+
+		inject(function ($1) {
+			this.$1 = $1;
+		});
+
+	});
+
+	$0
+
+});
+]]></content>
+    <tabTrigger>describeservice</tabTrigger>
+    <scope>source.js</scope>
+    <description>describe(): make an angular service suite</description>
+</snippet>
