@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+afterEach(function () {
+
+	$0
+
+});
+]]></content>
+    <tabTrigger>af</tabTrigger>
+    <scope>source.js</scope>
+    <description>make a test afterEach</description>
+</snippet>

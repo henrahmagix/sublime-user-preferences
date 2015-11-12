@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+describe('${1:the suite}', function () {
+
+	$0
+
+});
+]]></content>
+    <tabTrigger>des</tabTrigger>
+    <scope>source.js</scope>
+    <description>describe(): make a test suite</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+inject(function (${1:\$theMock}) {
+	this.$1 = $1;$0
+});
+]]></content>
+    <tabTrigger>inj</tabTrigger>
+    <scope>source.js</scope>
+    <description>inject(): make an angular mock injector</description>
+</snippet>

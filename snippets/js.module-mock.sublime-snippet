@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+module({
+	$1: this.$1$0
+});
+]]></content>
+    <tabTrigger>modo</tabTrigger>
+    <scope>source.js</scope>
+    <description>module({}): mock an angular component</description>
+</snippet>
