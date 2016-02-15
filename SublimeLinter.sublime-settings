@@ -1,26 +1,138 @@
 {
-    "javascript_linter": "gjslint",
-    // A list of gjslint error numbers to ignore. The list of error codes is here:
-    // http://closure-linter.googlecode.com/svn/trunk/closure_linter/errors.py
-    "gjslint_ignore":
-    [
-        // Single-quoted string prefered over double-quoted string.
-        131,
-        // Line too long.
-        110,
-        // Missing space.
-        2,
-        // Extra space. Prefer to only ignore this after "function".
-        1
-    ],
-    "sublimelinter": "save-only",
-    "sublimelinter_disable":
-    [
-        "jslint",
-        "jshint"
-    ],
-    "csslint_options":
-    {
-        "box-model": false
-    }
+	"user":
+	{
+		"@disable": true,
+		"debug": false,
+		"delay": 0.25,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"csslint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"errors": "",
+				"excludes":
+				[
+				],
+				"ignore": "",
+				"warnings": ""
+			},
+			"htmltidy":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"ignore_match":
+				[
+					"missing <!DOCTYPE> declaration",
+					"inserting (?:implicit <body>|missing 'title' element)",
+					"<(?:script|link)> inserting \"type\" attribute",
+					"<meta> lacks \"content\" attribute",
+					".*proprietary attribute.*"
+				]
+			},
+			"jscs":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+					"node_modules",
+					"app/lib",
+					"bower_components",
+					"jam"
+				]
+			},
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+					"node_modules",
+					"app/lib",
+					"bower_components",
+					"jam"
+				]
+			},
+			"json":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"strict": true
+			},
+			"pyyaml":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "outline",
+		"no_column_highlights_line": false,
+		"passive_warnings": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"shell_timeout": 10,
+		"show_errors_on_save": false,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"html (django)": "html",
+			"html (rails)": "html",
+			"html 5": "html",
+			"php": "html",
+			"python django": "python"
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
 }

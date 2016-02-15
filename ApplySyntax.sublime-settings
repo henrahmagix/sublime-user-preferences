@@ -8,15 +8,21 @@
     // JavaScript syntax, set new_file_syntax to 'JavaScript'.
     "new_file_syntax": false,
 
+    "add_exts_to_lang_settings": true,
+
     // Put your custom syntax rules here:
     "syntaxes": [
         {
-            "name": "ShellScript/Shell-Unix-Generic",
+            "syntax": "ShellScript/Shell-Unix-Generic",
             "match": "all",
             "rules": [
                 {"file_name": ".*dotfiles/[^.]*$"},
                 {"first_line": "^(?!#!).*"}
             ]
+        },
+        {
+            "syntax": "JavaScript/JavaScript",
+            "extensions": ["js"]
         }
     ]
 }
