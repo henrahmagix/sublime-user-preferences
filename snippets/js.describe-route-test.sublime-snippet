@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+describe('${1:/my/route/} route', function () {
+
+	it('should ${2:have a thing}', function () {
+		expect(this.\$route.routes['$1'].${3:aThing}).toBe(${4:aThing});
+	});
+
+	$0
+
+});
+]]></content>
+    <tabTrigger>describeroutetest</tabTrigger>
+    <scope>source.js</scope>
+    <description>describe(): make an angular route spec</description>
+</snippet>
