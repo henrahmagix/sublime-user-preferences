@@ -46,6 +46,7 @@
 	"theme": "Solarized Space Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"typescript_plugin_tsc_version": "1.7.3",
 	"vintage_ctrl_keys": false,
 	"word_wrap": true
 }

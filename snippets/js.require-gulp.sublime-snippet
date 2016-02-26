@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+var $0 = require('gulp-$0');
+]]></content>
+    <tabTrigger>requiregulp</tabTrigger>
+    <scope>source.js</scope>
+    <description>require a gulp package</description>
+</snippet>
