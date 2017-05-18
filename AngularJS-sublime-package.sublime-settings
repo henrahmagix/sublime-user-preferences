@@ -1,4 +1,5 @@
 {
-    "match_expression": "((^[ \\\\t]*\\.{0}|^[ \\\\t]*{0}|angular\\.{0}|\\)\\.{0}|(app|module)\\.{0})[ ]*\\([ ]*[\"\\'])([\\w\\.\\$]*)([\"\\'])",
-    "match_expression_group": 4
+	"disable_default_js_completions": true,
+	"match_expression": "((^[ \\\\t]*\\.{0}|^[ \\\\t]*{0}|angular\\.{0}|\\)\\.{0}|(app|module)\\.{0})[ ]*\\([ ]*[\"\\'])([\\w\\.\\$]*)([\"\\'])",
+	"match_expression_group": 4
 }

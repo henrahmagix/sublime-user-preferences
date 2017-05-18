@@ -1,7 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (light) (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized V (Light) (SL).tmTheme",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_white_space": "all",
@@ -20,10 +20,11 @@
 	],
 	"font_face": "Inconsolata",
 	"font_size": 14.0,
+	"hide_sidebar_icons": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		"AngularJS",
 		"Vintage"
 	],
 	"indent_guide_options":

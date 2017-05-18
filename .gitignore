@@ -1,2 +1,4 @@
 Package Control.*
 *.cache
+Projects
+oscrypto-ca-bundle.crt

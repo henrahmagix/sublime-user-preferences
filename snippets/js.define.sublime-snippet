@@ -1,9 +1,11 @@
 <snippet>
     <content><![CDATA[
 define([
-	'${1:edetail/views/TemplateView}'
+	'${1:edetail/views/TemplateView}',
+	'lodash'
 ], function (
-	${2:TemplateView}
+	${2:TemplateView},
+	_
 ) {
 
 	'use strict';
