@@ -25,6 +25,8 @@
 	"ignored_packages":
 	[
 		"AngularJS",
+		"JSX",
+		"Markdown",
 		"Vintage"
 	],
 	"indent_guide_options":
