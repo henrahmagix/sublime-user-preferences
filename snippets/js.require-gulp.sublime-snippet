@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-var $0 = require('gulp-$0');
+const $0 = require('gulp-$0');
 ]]></content>
     <tabTrigger>requiregulp</tabTrigger>
     <scope>source.js</scope>
