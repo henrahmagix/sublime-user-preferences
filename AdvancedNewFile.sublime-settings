@@ -1,0 +1,5 @@
+{
+    // If a warning should be displayed when trying to overwrite an existing file using
+    // the move command.
+    "warn_overwrite_on_move": true
+}
