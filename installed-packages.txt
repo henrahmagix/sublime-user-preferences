@@ -9,6 +9,8 @@ MarkdownEditing.sublime-package
 Package Control.sublime-package
 Ruby Slim.sublime-package
 Sass.sublime-package
+Search in Project
+SearchInProject_SublimeText
 SublimeLinter-contrib-htmllint.sublime-package
 SublimeLinter-contrib-sass-lint.sublime-package
 SublimeLinter-csslint.sublime-package
