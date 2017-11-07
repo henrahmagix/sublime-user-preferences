@@ -1,4 +1,5 @@
 {
     "search_in_project_engine": "the_silver_searcher",
+    "search_in_project_show_list_by_default": "true",
     "search_in_project_TheSilverSearcher_mandatory_options": "--column --search-files"
 }
