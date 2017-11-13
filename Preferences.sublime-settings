@@ -7,6 +7,7 @@
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -34,7 +35,9 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"indent_to_bracket": false,
 	"linecomments_shift_enter": true,
+	"margin": 0,
 	"open_files_in_new_window": true,
 	"rulers":
 	[
@@ -43,6 +46,7 @@
 	"scroll_past_end": true,
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
+	"spell_check": false,
 	"tab_size": 4,
 	"tabs_medium": true,
 	"tabs_padding_small": true,
