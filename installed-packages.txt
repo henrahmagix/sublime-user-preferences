@@ -2,6 +2,7 @@
 A File Icon.sublime-package
 AdvancedNewFile.sublime-package
 ApplySyntax.sublime-package
+Comments Aware Enter.sublime-package
 Dockerfile Syntax Highlighting.sublime-package
 Git Commit Message Syntax.sublime-package
 Inc-Dec-Value.sublime-package
