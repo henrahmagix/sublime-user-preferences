@@ -1,6 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
+	"caret_style": "wide",
 	"color_scheme": "Packages/User/SublimeLinter/Solarized V (Light) (SL).tmTheme",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
@@ -22,6 +23,7 @@
 	"font_face": "Inconsolata",
 	"font_size": 14.0,
 	"hide_sidebar_icons": false,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -36,6 +38,8 @@
 		"draw_active"
 	],
 	"indent_to_bracket": false,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"linecomments_shift_enter": true,
 	"margin": 0,
 	"open_files_in_new_window": true,
