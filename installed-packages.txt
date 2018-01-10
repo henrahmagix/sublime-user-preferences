@@ -3,6 +3,7 @@ A File Icon.sublime-package
 AdvancedNewFile.sublime-package
 ApplySyntax.sublime-package
 Comments Aware Enter.sublime-package
+Cucumber.sublime-package
 Dockerfile Syntax Highlighting.sublime-package
 GoSublime
 Git Commit Message Syntax.sublime-package
@@ -17,6 +18,8 @@ SearchInProject_SublimeText
 SublimeLinter-contrib-htmllint.sublime-package
 SublimeLinter-contrib-sass-lint.sublime-package
 SublimeLinter-csslint.sublime-package
+SublimeLinter-rubocop.sublime-package
+SublimeOnSaveBuild.sublime-package
 Theme - Solarized Space.sublime-package
 Themr.sublime-package
 ayu.sublime-package
