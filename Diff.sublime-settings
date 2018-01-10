@@ -1,4 +1,6 @@
 // These settings override both User and Default settings for the Diff syntax
 {
-    "trim_trailing_white_space_on_save": false
+    "detect_indentation": false,
+    "translate_tabs_to_spaces": false,
+    "trim_trailing_white_space_on_save": false,
 }
