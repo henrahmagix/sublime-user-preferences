@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+type ${1:Thing}Client interface {
+	${2:Method}(${3:param string}) ${4:returntype}
+}
+
+type ${1:Thing} struct {
+	client ${1:Thing}Client
+}
+
+func (t *${1:Thing}) ${5:PublicMethod}() ${4:returntype} {
+	var ${3:arg string}
+	return t.client.${2:Method}(${0:arg})
+}
+
+func New(c ${1:Thing}Client) *${1:Thing} {
+	return &${1:Thing}{client: c}
+}
+]]></content>
+	<tabTrigger>ints</tabTrigger>
+	<scope>source.go</scope>
+	<description>New Interface/Struct client pair</description>
+</snippet>
