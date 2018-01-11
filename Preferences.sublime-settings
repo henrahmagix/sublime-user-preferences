@@ -55,7 +55,7 @@
 	"tabs_medium": true,
 	"tabs_padding_small": true,
 	"theme": "Solarized Space Light.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"typescript_plugin_tsc_version": "1.7.3",
 	"ui_big_tabs": false,
