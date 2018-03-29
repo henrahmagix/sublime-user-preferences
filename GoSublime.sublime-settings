@@ -1,6 +1,6 @@
 {
     "autocomplete_tests": false,
-    "autocomplete_builtins": false,
+    "autocomplete_builtins": true,
     "9o_show_end": false,
     "shell": ["/bin/bash", "--login", "-c", "$CMD"],
     "fmt_cmd": ["goimports", "-srcdir", "$_dir"]
