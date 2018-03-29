@@ -66,5 +66,5 @@
 	"ui_separator": true,
 	"ui_wide_scrollbars": true,
 	"vintage_ctrl_keys": false,
-	"word_wrap": true
+	"word_wrap": false
 }
