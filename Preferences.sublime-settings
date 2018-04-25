@@ -38,7 +38,7 @@
 		"draw_active"
 	],
 	"indent_to_bracket": false,
-	"line_padding_bottom": 1,
+	"line_padding_bottom": 0,
 	"line_padding_top": 1,
 	"linecomments_shift_enter": true,
 	"margin": 0,
