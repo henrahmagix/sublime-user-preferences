@@ -111,7 +111,9 @@
 	"no_column_highlights_line": false,
 	"paths": {
 		"linux": [],
-		"osx": [],
+		"osx": [
+			"~/.rbenv/shims"
+		],
 		"windows": []
 	},
 	"show_marks_in_minimap": true,
