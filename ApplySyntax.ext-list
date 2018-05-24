@@ -12,10 +12,6 @@
 		".jshintrc",
 		"geojson"
 	],
-	"JavaScript":
-	[
-		"js"
-	],
 	"PHP":
 	[
 		"inc",
