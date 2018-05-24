@@ -1,6 +1,8 @@
 {
 	"auto_match_enabled": true,
-	"caret_style": "wide",
+	"caret_style": "solid",
+	"caret_extra_top": 3,
+	"caret_extra_bottom": 3,
 	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
 	"draw_centered": true,
 	"extensions":
@@ -18,7 +20,7 @@
 		"directwrite"
 	],
 	"font_size": 15,
-	"highlight_line": true,
+	"highlight_line": false,
 	"line_padding_top": 5,
 	"match_header_hashes": false,
 	"translate_tabs_to_spaces": true,
