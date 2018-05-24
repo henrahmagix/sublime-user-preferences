@@ -1,6 +1,6 @@
 // SublimeLinter Settings - User
 {
-	"debug": true,
+	"debug": false,
 	"delay": 0.25,
 	"gutter_theme": "Default",
 	"lint_mode": "background",
