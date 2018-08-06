@@ -120,7 +120,8 @@
 		"linux": [],
 		"osx": [
 			"~/.rbenv/shims",
-			"~/.nvm/versions/*/*/bin"
+			"~/.nvm/versions/*/*/bin",
+			"~/go/bin"
 		],
 		"windows": []
 	},
