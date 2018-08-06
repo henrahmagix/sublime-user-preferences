@@ -2,6 +2,10 @@
     "autocomplete_tests": false,
     "autocomplete_builtins": true,
     "9o_show_end": false,
-    "shell": ["/bin/bash", "--login", "-c", "$CMD"],
+    "env": {
+      "PATH": "$HOME/go/bin:$PATH",
+      "GOPATH": "$HOME/go",
+    },
+    "shell": ["/bin/bash", "-c", "$CMD"],
     "fmt_cmd": ["goimports", "-srcdir", "$_dir"]
 }

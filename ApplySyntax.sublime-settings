@@ -21,11 +21,28 @@
     // Put your custom syntax rules here:
     "syntaxes": [
         {
-            "syntax": "ShellScript/Shell-Unix-Generic",
-            "match": "all",
+            "syntax": "Git Formats/Git Ignore",
+            "rules": [
+                {"file_name": ".*gitignore.*$"}
+            ]
+        },
+        {
+            "syntax": "Git Formats/Git Attributes",
+            "rules": [
+                {"file_name": ".*gitattributes.*$"}
+            ]
+        },
+        {
+            "syntax": "Git Formats/Git Config",
+            "rules": [
+                {"file_name": ".*dotfiles/git.*$"}
+            ]
+        },
+        {
+            "syntax": "ShellScript/Bash",
             "rules": [
                 {"file_name": ".*dotfiles/[^.]*$"},
-                {"first_line": "^(?!#!).*"}
+                {"interpreter": "bash"}
             ]
         }
     ]

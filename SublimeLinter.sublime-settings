@@ -80,9 +80,16 @@
 		"rubocop": {
 			"@disable": false,
 			"args": [],
-			"excludes": []
+			"excludes": [
+				"*.slim"
+			]
 		},
 		"sass": {
+			"@disable": false,
+			"args": [],
+			"excludes": []
+		},
+		"slimlint": {
 			"@disable": false,
 			"args": [],
 			"excludes": []
@@ -112,7 +119,8 @@
 	"paths": {
 		"linux": [],
 		"osx": [
-			"~/.rbenv/shims"
+			"~/.rbenv/shims",
+			"~/.nvm/versions/*/*/bin"
 		],
 		"windows": []
 	},
