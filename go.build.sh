@@ -1,6 +1,6 @@
 set -x
 
-dep ensure -v && \
+(make deps || dep ensure) && \
 go install ./... && \
 go test ./... && \
 go vet ./... && \
