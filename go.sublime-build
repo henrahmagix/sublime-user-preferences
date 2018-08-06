@@ -1,3 +1,3 @@
 {
-	"shell_cmd": "go test ./..."
+	"shell_cmd": "'$packages'/User/go.build.sh"
 }
