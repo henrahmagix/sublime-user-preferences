@@ -3,21 +3,15 @@
 /* global describe, it, beforeEach, module, inject, expect, spyOn */
 
 (function () {
-
 	'use strict';
 
 	describe('Module ${1:my-module}:', function () {
-
 		beforeEach(function () {
-
 			module('$1');
-
 		});
 
 		$0
-
 	});
-
 }());
 ]]></content>
     <tabTrigger>describemodule</tabTrigger>

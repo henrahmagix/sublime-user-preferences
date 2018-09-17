@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
 describe('${1:my-thing} directive', function () {
-
 	beforeEach(function () {
-
 		inject(function (\$rootScope, \$compile) {
 			this.\$scope = \$rootScope.\$new();
 			this.\$compile = \$compile;
@@ -16,11 +14,9 @@ describe('${1:my-thing} directive', function () {
 		};
 
 		this.el = this.compileDirective('<div $1></div>');
-
 	});
 
 	$0
-
 });
 ]]></content>
     <tabTrigger>describedirective</tabTrigger>

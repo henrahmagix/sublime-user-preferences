@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
 describe('${1:my-thing} directive', function () {
-
 	beforeEach(function () {
-
 		inject(function (\$rootScope, \$compile) {
 			this.\$scope = \$rootScope.\$new();
 			this.\$compile = \$compile;
@@ -18,23 +16,17 @@ describe('${1:my-thing} directive', function () {
 		this.compileWithAttr = function (attr, value) {
 			return this.compileDirective('<div $1 ' + attr + '="' + value + '"></div>');
 		};
-
 	});
 
 	describe('${2:my-attr} attribute', function () {
-
 		beforeEach(function () {
-
 			this.setupWithValue = function (value) {
 				this.el = this.compileWithAttr('$2', value);
 			};
-
 		});
 
 		$0
-
 	});
-
 });
 ]]></content>
     <tabTrigger>describedirectiveattribute</tabTrigger>
